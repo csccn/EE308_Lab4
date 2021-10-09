@@ -1,0 +1,52 @@
+{
+    "pages": [
+        "pages/gate/gate",
+        "pages/game/game",
+        "pages/logs/logs",
+        "pages/rule/rule",
+        "pages/rank/rank",
+        "pages/mode/mode",
+        "pages/single/single",
+        "pages/multi/multi",
+        "pages/join/join",
+        "pages/create/create",
+        "pages/backgroundAudio/backgroundAudio"
+    ],
+
+    "requiredBackgroundModes": [
+        "audio",
+        "location"
+      ],
+      
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "WeChat",
+        "navigationBarTextStyle": "black"
+    },
+    "tabBar": {
+        "color": "#707070",
+        "selectedColor": "#e6872a",
+        "list": [
+            {
+                "pagePath": "pages/rule/rule",
+                "iconPath": "image/rule1.jpg",
+                "selectedIconPath": "image/rule2.jpg",
+                "text": "博饼规则"
+            },
+            {
+                "pagePath": "pages/gate/gate",
+                "iconPath": "image/play1.jpg",
+                "selectedIconPath": "image/play2.jpg",
+                "text": "游戏大厅"
+            },
+            {
+                "pagePath": "pages/rank/rank",
+                "iconPath": "image/rank1.jpg",
+                "selectedIconPath": "image/rank2.jpg",
+                "text": "排行榜单"
+            }
+        ]
+    },
+    "sitemapLocation": "sitemap.json"
+}

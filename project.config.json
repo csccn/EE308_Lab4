@@ -1,0 +1,115 @@
+{
+    "description": "项目配置文件。",
+    "setting": {
+        "urlCheck": true,
+        "es6": true,
+        "enhance": true,
+        "postcss": true,
+        "preloadBackgroundData": false,
+        "minified": true,
+        "newFeature": true,
+        "coverView": true,
+        "nodeModules": false,
+        "autoAudits": false,
+        "showShadowRootInWxmlPanel": true,
+        "scopeDataCheck": false,
+        "uglifyFileName": false,
+        "checkInvalidKey": true,
+        "checkSiteMap": true,
+        "uploadWithSourceMap": true,
+        "compileHotReLoad": false,
+        "lazyloadPlaceholderEnable": false,
+        "useMultiFrameRuntime": true,
+        "useApiHook": true,
+        "useApiHostProcess": true,
+        "babelSetting": {
+            "ignore": [],
+            "disablePlugins": [],
+            "outputPath": ""
+        },
+        "enableEngineNative": false,
+        "useIsolateContext": true,
+        "userConfirmedBundleSwitch": false,
+        "packNpmManually": false,
+        "packNpmRelationList": [],
+        "minifyWXSS": true,
+        "showES6CompileOption": false
+    },
+    "compileType": "miniprogram",
+    "libVersion": "1.9.94",
+    "appid": "wxf18c96448cc88263",
+    "projectname": "%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B9%20(4)1",
+    "condition": {
+        "search": {
+            "list": []
+        },
+        "conversation": {
+            "list": []
+        },
+        "plugin": {
+            "list": []
+        },
+        "game": {
+            "currentL": -1,
+            "list": []
+        },
+        "miniprogram": {
+            "list": [
+                {
+                    "id": -1,
+                    "name": "gate",
+                    "pathName": "pages/gate/gate",
+                    "query": ""
+                },
+                {
+                    "id": -1,
+                    "name": "game",
+                    "pathName": "pages/game/game",
+                    "query": ""
+                },
+                {
+                    "id": -1,
+                    "name": "rule",
+                    "pathName": "pages/rule/rule",
+                    "query": ""
+                },
+                {
+                    "id": -1,
+                    "name": "rank",
+                    "pathName": "pages/rank/rank",
+                    "query": ""
+                },
+                {
+                    "id": -1,
+                    "name": "mode",
+                    "pathName": "pages/mode/mode",
+                    "query": ""
+                },
+                {
+                    "id": -1,
+                    "name": "single",
+                    "pathName": "pages/single/single",
+                    "query": ""
+                },
+                {
+                    "id": -1,
+                    "name": "multi",
+                    "pathName": "pages/multi/multi",
+                    "query": ""
+                },
+                {
+                    "id": -1,
+                    "name": "join",
+                    "pathName": "pages/join/join",
+                    "query": ""
+                },
+                {
+                    "id": -1,
+                    "name": "create",
+                    "pathName": "pages/create/create",
+                    "query": ""
+                }
+            ]
+        }
+    }
+}
